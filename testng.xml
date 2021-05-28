@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- testNG.xml直接拖到项目下面 -->
+
+<!-- Suite:测试套件 -->
+<suite name="Suite" >
+    <!--Test:一个测试集（一个测试模块）-->
+    <test name="Test">
+        <!--此测试集下的所有测试类-->
+        <classes>
+            <!--测试类的定义-->
+            <class name="com.lemon.day07.TestNGDem"/>
+        </classes>
+    </test>
+
+</suite>
