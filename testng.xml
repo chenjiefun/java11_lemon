@@ -11,6 +11,8 @@
         <!--此测试集下的所有测试类-->
         <classes>
             <!--测试类的定义-->
+
+            <!--
             <class name="com.lemon.day07.TestNGDem">
                 <methods>
                     <include name = "c"/>
@@ -18,7 +20,12 @@
                     <include name = "b"/>
                 </methods>
             </class>
-        </classes>
-    </test>
+            <class name="com.lemon.day07.AnnotationDemo">
+            </class>
+            -->
 
+            <class name="com.lemon.day07.TestngParameterDemo"></class>
+        </classes>
+        <parameter name="browserType" value="ie"></parameter>
+    </test>
 </suite>

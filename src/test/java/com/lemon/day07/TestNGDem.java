@@ -12,6 +12,7 @@ package com.lemon.day07;
  */
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestNGDem {
@@ -32,5 +33,10 @@ public class TestNGDem {
     @Test
     public void c(){
         System.out.println("TestNGDem.c()");
+    }
+
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("AnnotationDemo.beforeClass");
     }
 }
