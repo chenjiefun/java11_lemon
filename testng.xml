@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- testNG.xml直接拖到项目下面 -->
 
+<!-- 加一个dtd文件，实际上就是schema,就是一个约束文件 -->
+
+
 <!-- Suite:测试套件 -->
 <suite name="Suite" >
     <!--Test:一个测试集（一个测试模块）-->
@@ -8,7 +11,13 @@
         <!--此测试集下的所有测试类-->
         <classes>
             <!--测试类的定义-->
-            <class name="com.lemon.day07.TestNGDem"/>
+            <class name="com.lemon.day07.TestNGDem">
+                <methods>
+                    <include name = "c"/>
+                    <include name = "a"/>
+                    <include name = "b"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
