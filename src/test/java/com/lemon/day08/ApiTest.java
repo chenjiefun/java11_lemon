@@ -55,7 +55,7 @@ public class ApiTest {
        String expected = "账号已注册";
        //进行断言
         Assert.assertEquals(actual,expected);
-        Assert.assertEquals(200,"code");
+//        Assert.assertEquals(200,"code");
     }
 
     @Test
